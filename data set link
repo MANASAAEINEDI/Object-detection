@@ -2,3 +2,7 @@ data set link : http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit
 in development kit
   • Download the training/validation data (2GB tar file)
 • Download the development kit code and documentation (500KB tar file)
+commands to run in propmt
+1) cd "C:\Users\Dell\Downloads\voc_to_tfrecord"
+2) python voc_to_tfrecord.py
+3)  python read_tfrecord.py
